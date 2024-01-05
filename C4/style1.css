@@ -1,0 +1,25 @@
+.card{
+    background-color: lightpink;
+    width: 450px;
+    height: 400px;
+    border-radius: 15%;
+    margin: 50px;
+    padding: 40px;
+}
+.outer_img{
+    margin: 50px;
+}
+.txtdiv{
+    margin-left: 150px;
+}
+
+.b1{
+    width: 80px;
+    height: 50px;
+    background-color: lightblue;
+    
+}
+.b1:hover{
+    background-color:rgb(102, 155, 173);
+    
+}

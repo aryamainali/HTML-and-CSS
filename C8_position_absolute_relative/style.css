@@ -1,0 +1,37 @@
+.box {
+  background-color: lightseagreen;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  margin-top: 150px;
+}
+/* position relative- The position property specifies the type of positioning method used for an element.
+There are five different position values:
+static
+relative
+fixed
+absolute
+sticky */
+/* position absolute-An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed). */
+
+/* z index is index priority can only work in absolute. */
+img {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 60%;
+  top: -100px;
+  left: 40px;
+  z-index: 2;
+
+  object-fit: cover;
+}
+.small_box {
+  position: absolute;
+  background-color: lightsalmon;
+  width: 50px;
+  height: 50px;
+  top: 30px;
+  right: 30px;
+  z-index: 1;
+}

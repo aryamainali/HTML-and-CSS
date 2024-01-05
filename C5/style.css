@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    
+}
+.mb, .proj {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.mb, .proj,.last{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.name{
+    background-color: black;
+    padding: 30px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+}
+
+.about{
+    margin-bottom: 90px;
+}
+.proj{
+    margin-bottom: 20px;
+}
+.p1,
+.p2,
+.p3{
+    border: 2px dashed black;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.last{
+    margin-top: 300px;
+    margin-bottom:10px;
+}
+.foot{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+}

@@ -1,0 +1,89 @@
+* {
+  margin: 0px;
+}
+.header {
+  height: 30px;
+  background-color: rgb(21, 133, 90);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 28px;
+}
+.left_section {
+  color: aliceblue;
+  font-family: "Sevillana", cursive;
+  font-size: 40px;
+}
+.right_section {
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 0px;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.right_section a {
+  color: aliceblue;
+  text-decoration: none;
+}
+.right_section a:hover {
+  text-decoration: underline;
+}
+.img_container {
+  display: flex;
+  flex-direction: row;
+  /* display: grid;
+  grid-template-columns: 1fr 1fr; */
+}
+
+.girl_img {
+  /* width: 30vw;
+  height: 100vh; */
+  background-color: lightpink;
+}
+.protxt_out {
+  /* width:; */
+  background-color: rgb(219, 236, 229);
+  padding: 80px;
+}
+.headt {
+  color: rgba(216, 124, 5, 0.959);
+  font-size: 60px;
+  font-weight: bold;
+}
+.headp {
+  color: rgb(32, 161, 118);
+  font-size: 43px;
+  margin-bottom: 40px;
+}
+.uline {
+  text-decoration: none;
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/664131/underline.svg");
+  background-size: 100% 20px;
+  background-repeat: no-repeat;
+
+  display: inline-block;
+  padding-bottom: 5px;
+}
+p .uline {
+  background-position: bottom;
+}
+
+.b1 {
+  width: 180px;
+  padding: 15px;
+  background-color: rgba(216, 124, 5, 0.959);
+  border: 2px;
+}
+.b1:hover {
+  background-color: rgba(133, 77, 10, 0.959);
+}
+.b1 a {
+  font-size: 20px;
+  text-decoration: none;
+  color: aliceblue;
+}

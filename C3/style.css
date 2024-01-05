@@ -1,0 +1,15 @@
+
+.g ,
+.h{
+    /* width: 50;
+    height: 30;
+    background-color: aqua; */
+    font-size: 20px;
+}
+.box{
+    width: 400px;
+    height: 400px;
+    background-color: yellow;
+    border: 2px dashed black;
+    border-radius: 50px 0px 50px 0px;
+}
